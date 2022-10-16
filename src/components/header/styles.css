@@ -1,0 +1,15 @@
+header {
+	--padding: 15px;
+	width: calc(100% - var(--padding) * 2);
+	padding: var(--padding);
+	display: flex;
+	justify-content: space-between;
+	background: rgb(25, 118, 210);
+	box-shadow: 0 2px 12px rgb(0, 0, 0, 0.5);
+	color: white;
+}
+
+header .controls {
+	display: flex;
+	gap: 6px;
+}
